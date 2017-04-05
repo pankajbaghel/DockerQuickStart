@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "build"
+echo "executing the build script for the flask-demo repo"
