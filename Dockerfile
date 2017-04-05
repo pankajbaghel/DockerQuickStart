@@ -11,4 +11,4 @@ COPY requirements.txt /root/demo/requirements.txt
 RUN pip install -r /root/demo/requirements.txt
 
 ENTRYPOINT ["python"]
-CMD ["demo-app.py"]
+CMD ["/root/demo/demo-app.py"]
